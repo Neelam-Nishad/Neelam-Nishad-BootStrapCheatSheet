@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My first BootStrap Project</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+    <div style="margin: 10px;  padding: 10px ; margin-left: 100px;" class="container bg-info">
+        <h2 class="text-danger ">Basic BootStrap document <small> By Neelam Nishad</small></h2>
+    </div>
+    <hr>
+    <div class="container">
+        <h3 class="text-primary">This is Typography</h3>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem incidunt ratione
+            exercitationem, neque
+            quas saepe nemo aspernatur soluta molestiae blanditiis corrupti obcaecati tempore et sunt facilis, sit
+            minus? Nesciunt, recusandae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem incidunt ratione exercitationem, neque
+            quas saepe nemo <mark>soluta molestiae blanditiis</mark> corrupti obcaecati tempore et sunt facilis, sit
+            minus? Nesciunt, recusandae?</p>
+    </div>
+    <hr>
+
+    <div class="container">
+        <h3 class="text-primary">This is Alingment</h3>
+        <div>
+            <p>Single Element is always sorted <br><cite class="text-muted">unsorted Array-</cite></p>
+        </div>
+        <div class="text-center">
+            <p>you will try your best but in last you will realize that you <br>. Can't be everyone's favourite Girl
+                <br><cite class="text-muted ">Neelam Nishad-</cite></p>
+        </div>
+        <div class="text-right">
+            <p>Everyone Watches a Dream. but <br>only few works to achive them. <br><cite class="text-muted ">Neelam
+                    Nishad-</cite></p>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <h3 class="text-primary">Something around lists</h3>
+        <p class="text-primary">Inlined List</p>
+        <ul class="list-inline">
+            <li class="list-inline-item">Hey</li>
+            <li class="list-inline-item">This</li>
+            <li class="list-inline-item">is</li>
+            <li class="list-inline-item">Neelam</li>
+        </ul>
+        <p class="text-primary">Unstyled List</p>
+        <ul class="list-unstyled">
+            <li>this</li>
+            <li>is</li>
+            <li>BootStrap</li>
+        </ul>
+    </div>
+    <hr>
+    <div class="container">
+        <h3 class="text-primary">This is BS not CSS's Float</h3>
+        <div class="float-right bg-info rounded" style="padding: 5px;">Hey I am on right</div>
+        <div class="float-left bg-info rounded" style="padding: 5px">Hey I am on left</div>
+        <div class="clearfix"></div>
+    </div>
+
+    <hr>
+    <div class="container">
+        <h3 class="text-primary">Learn blockquote</h3>
+        <blockquote class="blockquote">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit recusandae inventore explicabo
+                accusantium veritatis odit asperiores quis iure, in veniam natus, sapiente velit ad. Ipsum nisi quae
+                mollitia accusantium praesentium!</p>
+            <footer>__quote by <cite title="yo yo Hs">yo yo Hs</cite></footer>
+        </blockquote>
+    </div>
+    <hr>
+    <div class="container">
+        <h3 class="text-primary">This is how we Write Code Here</h3>
+        <code>&lt;h1&gt;Heading Text&lt;h1&gt;</code>
+        <br>
+        <code>&lt;p&gt;Lorem ipsum dolor sit, amet consectetur adipisicing elit. A adipisci cupiditate rem magni laborum
+            aperiam! Deleniti, nemo! Dolor commodi voluptates voluptate fugiat vitae esse quas ipsum asperiores,
+            officiis atque quae.&lt;p&gt;</code>
+    </div>
+    <hr>
+    <div class="container">
+        <h3 class="text-primary">Playing with keyboard keys</h3>
+        <br>
+        <p>To copy selected text press <kbd>ctrl</kbd> <kbd>+</kbd> <kbd>c</kbd></p>
+        <p>To paste copied text press <kbd>ctrl</kbd> <kbd>+</kbd> <kbd>v</kbd></p>
+    </div>
+    <hr>
+    <div class="container">
+        <h3 class="text-primary">Contexual Colours </h3>
+        <br>
+        <p class="text-primary border"> I am Primary</p>
+        <p class="text-warning border"> I am warning</p>
+        <p class="text-success border"> I am Sucess</p>
+        <p class="text-muted border"> I am Muted</p>
+        <p class="text-info border">I am Info</p>
+        <p class="text-danger border">I am danger</p>
+    </div>
+    <hr>
+    <div class="container">
+        <h3 class="text-primary">Blaa Blaa Buttons </h3>
+        <br>
+        <button class="btn btn-outline-danger" disabled="disabled">Default disabled</button>
+        <br>
+        <br>
+        <a href="#" class="btn btn-outline-primary" role="button">link</a>
+        <br>
+        <br>
+        <button class="btn btn-secondary" type="submit">ugly button</button>
+        <br>
+        <br>
+        <button class="btn btn-warning btn-lg">I am large</button>
+    </div>
+    <hr>
+    <div class="container">
+        <h3 class="text-primary">Here comes the Forms </h3>
+        <br>
+        <form>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="Add Name">
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="Email please" required>
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" placeholder="Enter your Password">
+            </div>
+            <div class="form-group">
+                <label>Message</label>
+                <textarea class="form-control" placeholder="Add messagge"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Gender</label>
+                <select class="form-control">
+                    <option value="male">Male</option>
+                    <option value="female" selected>Female</option>
+                    <option value="other">Others</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Upload File</label>
+                <input type="file">
+                <p class="help-block">only pdf of less than 5MB allowed</p>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox"> Agree to terms and policies
+                </label>
+            </div>
+            <div class="form-group">
+                <button class=" btn btn-outline-primary form-control " type="button">Submit</button>
+            </div>
+        </form>
+        <h3>Inline Form</h3>
+        <form action="#" class="form-inline"></form>
+    </div>
+    <hr>
+    <div class="container">
+        <h3 class="text-primary">Here comes the Tables </h3>
+        <br>
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+                <tr class="bg-warning">
+                    <th scope="col">#</th>
+                    <th scope="col">first</th>
+                    <th scope="col">second</th>
+                    <th scope="col">third</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-info">
+                    <th scope="row" class="bg-warning">1</th>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr class="bg-info">
+                    <th scope="row" class="bg-warning">2</th>
+                    <td>2</td>
+                    <td>6</td>
+                    <td>1</td>
+                </tr>
+                <tr class="bg-info">
+                    <th scope="row" class="bg-warning">3</th>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>8</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-striped table-bordered table-hover table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">first</th>
+                    <th scope="col">second</th>
+                    <th scope="col">third</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th scope="row" >2</th>
+                    <td>2</td>
+                    <td>6</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>8</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <div class="container">
+            <h3 class="text-primary">Again Lists :/ </h3>
+            <br>
+            
+            <ul class="list-group">
+                <li class="list-group-item active"> 
+                   <span class="badge badge-pill badge-info">Star</span> Ariana</li>
+                <li class="list-group-item disabled">
+                    <span class="badge badge-pill badge-info">ordinary person</span>Neelam</li>
+            </ul>
+            <br>
+            <div class="container">
+                <ol class="list-group-flush">
+                    <li class="list-group-item active">Ariana</li>
+                    <li class="list-group-item disabled">Neelam</li>
+    
+                </ol>
+            </div>
+            
+        </div>
+        <hr>
+        <div class="container">
+            <h3 class="text-primary"> Progress Bar Check  </h3>
+            <br>
+            <label>Attendence</label>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-success" style="width: 50%"></div>
+            </div>
+            <br>
+            <label>Your Assingment Progress</label>
+            <div class="progress">
+                <div class="progress-bar progress-bar-animated" style="width: 90%;"></div>
+            </div>
+            <br>
+            <label>you are in this Danger</label>
+            <div class="progress">
+                
+                <br>
+                <div class="progress-bar bg-danger progress-bar-striped " style="width: 20%" name="progress1"></div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <h3 class="text-primary">ALERTS </h3>
+            <br>
+            <div class="alert alert-danger" role="alert">
+                A simple Primary Alert
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <h3 class="text-primary">Images </h3>
+            <img src="https://www.pngitem.com/pimgs/m/226-2265935_clipart-home-home-address-small-blue-house-logo.png" alt="" class="rounded" height="200px">
+            <img src="https://www.pngitem.com/pimgs/m/226-2265935_clipart-home-home-address-small-blue-house-logo.png" alt="" class="rounded float-left" height="200px">
+            <img src="https://www.pngitem.com/pimgs/m/226-2265935_clipart-home-home-address-small-blue-house-logo.png" alt="" class="rounded float-right" height="200px">
+            <div class="clearfix"></div>
+        </div>
+        
+        <hr>
+        <div class="container">
+            <h3 class="text-primary">Grid Grid Grid</h3>
+            <p class="lead"> So! Basically, in gridsystem the screen will be devided in 12 equal parts and then distributed among your no of elements (equally).</p>
+            <div class="row" style="height: 500px;">
+                <div class="col-md bg-warning" >don't leave me empty</div>
+                <div class="col-md bg-danger ">same here</div>
+                <div class="col-md bg-info">gime name bro</div>
+            </div>
+            <br>
+            <div class="row" style="height: 500px;">
+                <div class="col-lg bg-warning">don't leave me alone</div>
+                <div class="col-lg bg-danger">smae here</div>
+                <div class="col-lg bg-info">gimme name bro</div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <h3 class="text-primary">This is Jumbotron</h3>
+            <br>
+            <div class="jumbotron">
+                <h1>Thanks for Visiting</h1>
+                <p class="lead">I hope you guys liked it .. </p>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+    <div style="height: 400px;"></div>
+</body>
+
+</html>
